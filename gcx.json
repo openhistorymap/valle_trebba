@@ -1,0 +1,40 @@
+{
+  "title": "Untitled map",
+  "type": "2d",
+  "center": [
+    -0.030044,
+    0.123306
+  ],
+  "minzoom": 1,
+  "startzoom": 10,
+  "maxzoom": 20,
+  "datasources": [
+    {
+      "name": "locations_cdcdzczcd",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/locations_cdcdzczcd.geojson"
+      }
+    }
+  ],
+  "layers": [
+    {
+      "name": "locations_cdcdzczcd",
+      "type": "features",
+      "datasource": "locations_cdcdzczcd",
+      "style": {
+        "style": "mapbox",
+        "mode": "marker",
+        "markerType": "circle",
+        "options": {
+          "radius": 4,
+          "fillColor": "#e8718d",
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillOpacity": 0.6
+        }
+      }
+    }
+  ]
+}
