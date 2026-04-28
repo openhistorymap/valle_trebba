@@ -2,37 +2,131 @@
   "title": "Untitled map",
   "type": "2d",
   "center": [
-    -0.030044,
-    0.123306
+    44.702654,
+    12.121156
   ],
   "minzoom": 1,
-  "startzoom": 10,
+  "startzoom": 15,
   "maxzoom": 20,
   "datasources": [
     {
-      "name": "locations_cdcdzczcd",
+      "name": "valle_trebba_ustrina",
       "type": "geojson+http+remote",
       "conf": {
-        "source": "datasets/locations_cdcdzczcd.geojson"
+        "source": "datasets/valle_trebba_ustrina.geojson"
+      }
+    },
+    {
+      "name": "valle_trebba_punti_32632",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/valle_trebba_punti_32632.geojson"
+      }
+    },
+    {
+      "name": "valle_trebba_palificazioni",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/valle_trebba_palificazioni.geojson"
+      }
+    },
+    {
+      "name": "valle_trebba_linee",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/valle_trebba_linee.geojson"
+      }
+    },
+    {
+      "name": "valle_trebba_dossi_poligoni",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/valle_trebba_dossi_poligoni.geojson"
       }
     }
   ],
   "layers": [
     {
-      "name": "locations_cdcdzczcd",
+      "name": "valle_trebba_ustrina",
       "type": "features",
-      "datasource": "locations_cdcdzczcd",
+      "datasource": "valle_trebba_ustrina",
       "style": {
         "style": "mapbox",
         "mode": "marker",
         "markerType": "circle",
         "options": {
           "radius": 4,
-          "fillColor": "#e8718d",
+          "fillColor": "#b7484b",
           "color": "#000",
           "weight": 1,
           "opacity": 1,
           "fillOpacity": 0.6
+        }
+      }
+    },
+    {
+      "name": "valle_trebba_punti_32632",
+      "type": "features",
+      "datasource": "valle_trebba_punti_32632",
+      "style": {
+        "style": "mapbox",
+        "mode": "marker",
+        "markerType": "circle",
+        "options": {
+          "radius": 4,
+          "fillColor": "#e77148",
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillOpacity": 0.6
+        }
+      }
+    },
+    {
+      "name": "valle_trebba_palificazioni",
+      "type": "features",
+      "datasource": "valle_trebba_palificazioni",
+      "style": {
+        "style": "mapbox",
+        "mode": "marker",
+        "markerType": "circle",
+        "options": {
+          "radius": 4,
+          "fillColor": "#987db7",
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillOpacity": 0.6
+        }
+      }
+    },
+    {
+      "name": "valle_trebba_linee",
+      "type": "features",
+      "datasource": "valle_trebba_linee",
+      "style": {
+        "style": "mapbox",
+        "mode": "line",
+        "options": {
+          "color": "#becf50",
+          "weight": 2,
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "valle_trebba_dossi_poligoni",
+      "type": "features",
+      "datasource": "valle_trebba_dossi_poligoni",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillColor": "#60e159",
+          "fillOpacity": 0.4
         }
       }
     }

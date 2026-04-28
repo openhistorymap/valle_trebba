@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "valle_trebba_ustrina",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "Point", "coordinates": [ 12.11289185995871, 44.703738776587095 ] } },
+{ "type": "Feature", "properties": { "id": 2 }, "geometry": { "type": "Point", "coordinates": [ 12.112942831523307, 44.703683986371068 ] } },
+{ "type": "Feature", "properties": { "id": 3 }, "geometry": { "type": "Point", "coordinates": [ 12.110249639640337, 44.704174662705718 ] } },
+{ "type": "Feature", "properties": { "id": 4 }, "geometry": { "type": "Point", "coordinates": [ 12.108612669820616, 44.701646128145747 ] } },
+{ "type": "Feature", "properties": { "id": 8 }, "geometry": { "type": "Point", "coordinates": [ 12.109961739114848, 44.700645174550289 ] } }
+]
+}
