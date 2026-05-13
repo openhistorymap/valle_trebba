@@ -1,0 +1,110 @@
+**Valle Trebba – Tomba 168**
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="smallcaps">Anno di
+rinvenimento</span></th>
+<th style="text-align: center;">1923</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Stato di
+conservazione della tomba</span></td>
+<td style="text-align: center;">scheletro scomposto</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Rito di
+seppellimento</span></td>
+<td style="text-align: center;">Inumazione</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Struttura
+tomba</span></td>
+<td style="text-align: center;">fossa semplice, forma non
+registrata</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Profondità dal
+piano di campagna</span></td>
+<td style="text-align: center;">1,10 m</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Dimensioni della
+sepoltura</span></td>
+<td style="text-align: center;">Non registrate</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Orientamento
+dello scheletro</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="smallcaps">Segnacolo</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Giornale di
+scavo</span></td>
+<td style="text-align: center;"><p><em>Sabato, li 20 ottobre.</em></p>
+<p><em>168 Tomba umata (devastata)</em></p>
+<p><em>A m. 12 dal bordo S. dello scavo e a m. 26 dal canale a m. 1,10
+di prof.tà si rinvengono le ossa scomposte di uno scheletro e pochi
+oggetti presso la spalla destra:</em></p>
+<p><em>1 skyfos di argilla giallo-chiara, con vernice scura, a piede
+stretto ed alto, frammentato in una ansa 0,19</em></p>
+<p><em>1 piatto di argilla scura, con vernice e cavetto nel centro
+(copriva lo skyfos)</em></p>
+<p><em>1 oinocoe a bocca trilobata di argilla giallo chiara con avanzi
+di arabeschi a ver. bruna scadente e tinta rossa 0,25</em></p>
+<p><em>1 balsamario di argilla giallo-chiara, tipo alabastron col fondo
+piatto, liscio e senza vernice. 0,21</em></p>
+<p><em>1 vasetto cilindrico col coperchio piatto, di argilla chiara (il
+coperchio è frammentato) e senza vernice –</em></p>
+<p><em>1 ambra con foro passante, e</em></p>
+<p><em>1 perla con foro pervio, di pietra ollare</em></p>
+<p><em>1 dischetto di osso con foro passante</em></p>
+<p><em>1 aryballos a forma di fiasco senza anse di argilla gialla con
+qualche pennellata di tinta bruna sul collo. è alto 0.095 e frammentato
+nel collo.</em></p>
+<p><em>4 tazzette a ver. n. scadente, una delle quali con lunga
+iscrizione graffita all'interno – intere.</em></p>
+<p>(<span class="smallcaps">Proni</span> 1923)</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Posizione del
+corredo</span></td>
+<td style="text-align: center;">Fianco destro</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Genere (legato
+all’analisi del corredo)</span></td>
+<td style="text-align: center;">Femminile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Sesso (legato
+alle analisi antropologiche)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Classi di
+età</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Bibliografia
+essenziale</span></td>
+<td style="text-align: center;"><span class="smallcaps">Negrioli</span>
+1924, pp. 293, 301; <span class="smallcaps">Uggeri</span> 1978, n. 16,
+pp. 355-356; <span class="smallcaps">Berti</span> 1983, p. 45; <span
+class="smallcaps">Pozzi</span> 2011; <span
+class="smallcaps">Trevisanello</span> 2024</td>
+</tr>
+</tbody>
+</table>

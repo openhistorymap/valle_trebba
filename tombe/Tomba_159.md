@@ -1,0 +1,97 @@
+**Valle Trebba – Tomba 159**
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="smallcaps">Anno di
+rinvenimento</span></th>
+<th style="text-align: center;">1923</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Stato di
+conservazione della tomba</span></td>
+<td style="text-align: center;">Sconvolta</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Rito di
+seppellimento</span></td>
+<td style="text-align: center;">Cremazione</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Struttura
+tomba</span></td>
+<td style="text-align: center;">pozzetto semplice</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Profondità dal
+piano di campagna</span></td>
+<td style="text-align: center;">0,45 m</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Dimensioni della
+sepoltura</span></td>
+<td style="text-align: center;">Non registrate</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Orientamento
+dello scheletro</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="smallcaps">Segnacolo</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Giornale di
+scavo</span></td>
+<td style="text-align: center;"><p><em>Giovedì 18 ottobre –</em></p>
+<p><em>159 Tomba cremata (saccheggiata)</em></p>
+<p><em>A m. 18 dal canale e a m. 12,60 dal bordo S dello scavo a m. 0,45
+di profondità si rinvengono sparsi all’ingiro</em></p>
+<p><em>i frammenti di uno di quei dolietti comuni di argilla rossa e le
+ossa combuste sono sparse ovunque.</em></p>
+<p><em>Si raccoglie:</em></p>
+<p><em>una mezza di quelle figurine di argilla color cinerognolo cotta
+e</em></p>
+<p><em>2 altre intere, una maschile per metà ignuda</em></p>
+<p><em>alta m. 0,175, l’altra fem.le avvolta in un manto (0,16) e
+diverse conchiglie comuni</em></p>
+<p>(<span class="smallcaps">Proni</span> 1923)</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Posizione del
+corredo</span></td>
+<td style="text-align: center;">In frammenti misti alle ossa del
+defunto</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Genere (legato
+all’analisi del corredo)</span></td>
+<td style="text-align: center;">Femminile ?</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Sesso (legato
+alle analisi antropologiche)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Classi di
+età</span></td>
+<td style="text-align: center;">Subadulto</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Bibliografia
+essenziale</span></td>
+<td style="text-align: center;"><span class="smallcaps">Negrioli</span>
+1924, p. 297; <span class="smallcaps">Serra</span> 2022; <span
+class="smallcaps">Serra</span> 2025, p. 110</td>
+</tr>
+</tbody>
+</table>

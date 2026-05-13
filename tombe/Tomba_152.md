@@ -1,0 +1,99 @@
+**Valle Trebba – Tomba 152**
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="smallcaps">Anno di
+rinvenimento</span></th>
+<th style="text-align: center;">1923</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Stato di
+conservazione della tomba</span></td>
+<td style="text-align: center;">Intatta</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Rito di
+seppellimento</span></td>
+<td style="text-align: center;">Inumazione</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Struttura
+tomba</span></td>
+<td style="text-align: center;">fossa semplice, forma non
+registrata</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Profondità dal
+piano di campagna</span></td>
+<td style="text-align: center;">1,00 m</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Dimensioni della
+sepoltura</span></td>
+<td style="text-align: center;">Non registrate</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Orientamento
+dello scheletro</span></td>
+<td style="text-align: center;">W-E</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="smallcaps">Segnacolo</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Giornale di
+scavo</span></td>
+<td style="text-align: center;"><p><em>152 Tomba umata</em></p>
+<p><em>A m. 17 dal canale, a m. 11 dal bordo S e a m. 1 d profondità si
+rinvenne uno scheletro orientato da Pon. a Lev.</em></p>
+<p><em>Presso il fianco sinistro aveva:</em></p>
+<p><em><u>una kylix in</u> fram-ti, figurata (a f.r.) con scene di
+abbigliamento di disegno discreto..</em></p>
+<p><em><u>due oinocoi di argil</u>la gialla, a forma di brocca.</em></p>
+<p><em>Una di queste è in fram.ti, l’altra ha l’ansa in pezzi. Esse
+hanno tracce di pennellate di tinta bruna.</em></p>
+<p><em><u>un piccolo piattello,</u> a ver.n.</em></p>
+<p><em><u>un balsamario, di pasta vitrea,</u> a colori
+variegati</em></p>
+<p><em>intero (forma di alabastron).</em></p>
+<p><em>Altro –</em></p>
+<p>(<span class="smallcaps">Proni</span> 1923)</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Posizione del
+corredo</span></td>
+<td style="text-align: center;">Fianco sinistro</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Genere (legato
+all’analisi del corredo)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Sesso (legato
+alle analisi antropologiche)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Classi di
+età</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Bibliografia
+essenziale</span></td>
+<td style="text-align: center;"><span class="smallcaps">Berti</span>
+1983, p. 46; <span class="smallcaps">Parrini</span> 1993a, pp. 278-279,
+nn. 182-186; <span class="smallcaps">Trevisanello</span> 2024</td>
+</tr>
+</tbody>
+</table>

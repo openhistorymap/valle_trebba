@@ -1,0 +1,106 @@
+**Valle Trebba – Tomba 154**
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="smallcaps">Anno di
+rinvenimento</span></th>
+<th style="text-align: center;">1923</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Stato di
+conservazione della tomba</span></td>
+<td style="text-align: center;">Intatta</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Rito di
+seppellimento</span></td>
+<td style="text-align: center;">Inumazione</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Struttura
+tomba</span></td>
+<td style="text-align: center;">fossa semplice, forma non
+registrata</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Profondità dal
+piano di campagna</span></td>
+<td style="text-align: center;">1,10 m</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Dimensioni della
+sepoltura</span></td>
+<td style="text-align: center;">Non registrate</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Orientamento
+dello scheletro</span></td>
+<td style="text-align: center;">NNW-SSE</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="smallcaps">Segnacolo</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Giornale di
+scavo</span></td>
+<td style="text-align: center;"><p><em>154 Tomba a umazione –</em></p>
+<p><em>A m. 5 a ponente dalla precedente, a m. 1,10 di profondità
+poggiava uno scheletro orientato da NN-O a SS-E.</em></p>
+<p><em>Presso il fianco des. aveva:</em></p>
+<p><em>una kelebe figurata (a f.r.) in frammenti con coperchio a pomello
+a ver.n.</em></p>
+<p><em>La kelebe a colonnette, nel lato nobile ha disegnato a sin. una
+figura femm.le volta a d. con lungo manto e bastone e asta nella d.; in
+mezzo una figura di giovane, ignudo che inclinato offre i gambali a
+Athena che è a sin. con elmo in testa e scudo rotondo con scorpione. Nel
+rovescio varie figure maschili.</em></p>
+<p><em>1 kylix, a ver.n., intera.</em></p>
+<p><em>1 piccolo oinocoe di forma fusiforme, a v.n., fram.to
+nell’ansa.</em></p>
+<p><em>2 tazzette di argilla gialla e di impasto locale,
+grezze.</em></p>
+<p><em>Una di esse conserva nel cavo le ossa di pollo.</em></p>
+<p><em>2 piattelli ad alto piede, di argilla come le precedenti
+tazze</em></p>
+<p><em>altri frammenti –</em></p>
+<p>(<span class="smallcaps">Proni</span> 1923)</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Posizione del
+corredo</span></td>
+<td style="text-align: center;">Fianco destro</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Genere (legato
+all’analisi del corredo)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Sesso (legato
+alle analisi antropologiche)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Classi di
+età</span></td>
+<td style="text-align: center;">Adulto ?</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Bibliografia
+essenziale</span></td>
+<td style="text-align: center;"><span class="smallcaps">Negrioli</span>
+1924, p. 317; <span class="smallcaps">Gualandi</span> 1980, p. 99; <span
+class="smallcaps">Berti</span> 1983, p. 45; <span
+class="smallcaps">Trevisanello</span> 2024</td>
+</tr>
+</tbody>
+</table>

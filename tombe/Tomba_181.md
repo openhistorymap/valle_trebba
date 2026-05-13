@@ -1,0 +1,95 @@
+**Valle Trebba – Tomba 181**
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><span class="smallcaps">Anno di
+rinvenimento</span></th>
+<th style="text-align: center;">1923</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Stato di
+conservazione della tomba</span></td>
+<td style="text-align: center;">Sconvolta</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Rito di
+seppellimento</span></td>
+<td style="text-align: center;">Cremazione</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Struttura
+tomba</span></td>
+<td style="text-align: center;">pozzetto semplice</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Profondità dal
+piano di campagna</span></td>
+<td style="text-align: center;">0,65 m</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Dimensioni della
+sepoltura</span></td>
+<td style="text-align: center;">Non registrate</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Orientamento
+dello scheletro</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="smallcaps">Segnacolo</span></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Giornale di
+scavo</span></td>
+<td style="text-align: center;"><p><em>Mercoledì 24 Ottobre –</em></p>
+<p><em>Tomba 181 cremato.</em></p>
+<p><em>A m. 8 dal canale e a m. 3,8 dal limite S. dello scavo, a m. 0,65
+di prof.tà si rinvennero gli avanzi di un dolio frantumato e le ceneri
+sparse all’ingiro. Nulla raccolto.</em></p>
+<p><em>In questa zona, da lev. a pon., fu piantata una fila di pali
+grossi da secoli, forse per lavori di piscicoltura eppoi imbottito
+l’argine esterno della staccionata scavando il terreno all’esterno della
+palafitte.</em></p>
+<p><em>I pali raggiungono il piano delle tombe (1,10 m.) e il lavoro di
+scavo per formare l’argine di terra contro la staccionata ha sconvolto
+in gran parte le tombe.</em></p>
+<p>(<span class="smallcaps">Proni</span> 1923)</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Posizione del
+corredo</span></td>
+<td style="text-align: center;">Nessun oggetto rinvenuto</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Genere (legato
+all’analisi del corredo)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Sesso (legato
+alle analisi antropologiche)</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Classi di
+età</span></td>
+<td style="text-align: center;">Non determinabile</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="smallcaps">Bibliografia
+essenziale</span></td>
+<td style="text-align: center;"><span class="smallcaps">Negrioli</span>
+1924, p. 297; <span class="smallcaps">Serra</span> 2014-2015</td>
+</tr>
+</tbody>
+</table>
