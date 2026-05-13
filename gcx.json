@@ -80,6 +80,13 @@
           "opacity": 1,
           "fillOpacity": 0.6
         }
+      },
+      "detail": {
+        "title": "tomba",
+        "media": [
+          { "kind": "image", "src": "schizzi/{tomba}.jpg", "label": "Schizzo" },
+          { "kind": "download", "src": "tombe/Tomba_{tomba}.docx", "label": "Scheda di scavo (DOCX)" }
+        ]
       }
     },
     {
