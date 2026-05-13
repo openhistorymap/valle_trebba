@@ -85,7 +85,8 @@
         "title": "tomba",
         "media": [
           { "kind": "image", "src": "schizzi/{tomba}.jpg", "label": "Schizzo" },
-          { "kind": "download", "src": "tombe/Tomba_{tomba}.docx", "label": "Scheda di scavo (DOCX)" }
+          { "kind": "html", "src": "tombe/Tomba_{tomba}.html", "label": "Scheda di scavo" },
+          { "kind": "download", "src": "tombe/Tomba_{tomba}.docx", "label": "Versione DOCX" }
         ]
       }
     },
