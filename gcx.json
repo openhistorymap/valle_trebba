@@ -41,7 +41,7 @@
       "name": "valle_trebba_dossi_poligoni",
       "type": "geojson+http+remote",
       "conf": {
-        "source": "datasets/valle_trebba_dossi_poligoni.geojson"
+        "source": "datasets/valle_trebba_dossi_elevation.geojson"
       }
     }
   ],
@@ -163,12 +163,29 @@
         "style": "mapbox",
         "mode": "polygon",
         "options": {
-          "color": "#000",
-          "weight": 1,
+          "color": "#3e4d36",
+          "weight": 0,
           "opacity": 1,
-          "fillColor": "#60e159",
-          "fillOpacity": 0.4
-        }
+          "fillColor": "#b0a070",
+          "fillOpacity": 1
+        },
+        "maplibre": [
+          {
+            "type": "fill",
+            "paint": {
+              "fill-color": [
+                "interpolate", ["linear"], ["get", "elevation_cm"],
+                -80, "#3e4d36",
+                -60, "#6f6b4c",
+                -40, "#a89972",
+                -20, "#cfba87",
+                  0, "#e8d8aa"
+              ],
+              "fill-opacity": 1,
+              "fill-outline-color": "#2d3429"
+            }
+          }
+        ]
       }
     }
   ]
