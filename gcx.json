@@ -47,25 +47,7 @@
   ],
   "layers": [
     {
-      "name": "valle_trebba_ustrina",
-      "type": "features",
-      "datasource": "valle_trebba_ustrina",
-      "style": {
-        "style": "mapbox",
-        "mode": "marker",
-        "markerType": "circle",
-        "options": {
-          "radius": 4,
-          "fillColor": "#b7484b",
-          "color": "#000",
-          "weight": 1,
-          "opacity": 1,
-          "fillOpacity": 0.6
-        }
-      }
-    },
-    {
-      "name": "valle_trebba_punti_32632",
+      "name": "Tombe",
       "type": "features",
       "datasource": "valle_trebba_punti_32632",
       "style": {
@@ -108,7 +90,7 @@
         "title": "tomba",
         "media": [
           { "kind": "image", "src": "schizzi/{tomba}.jpg", "label": "Schizzo" },
-          { "kind": "html", "src": "tombe/Tomba_{tomba}.html", "label": "Scheda di scavo" },
+          { "kind": "html", "src": "tombe/VT_Tomba_{tomba}.html", "label": "Scheda di scavo" },
           { "kind": "csv-row", "src": "Tombe_VT_151-1213.csv",
             "key": "Tomba n°:", "match": "{tomba}",
             "label": "Metadati tomba" },
@@ -120,8 +102,28 @@
       }
     },
     {
-      "name": "valle_trebba_palificazioni",
+      "name": "Ustrina",
       "type": "features",
+      "interactive": false,
+      "datasource": "valle_trebba_ustrina",
+      "style": {
+        "style": "mapbox",
+        "mode": "marker",
+        "markerType": "circle",
+        "options": {
+          "radius": 4,
+          "fillColor": "#b7484b",
+          "color": "#000",
+          "weight": 1,
+          "opacity": 1,
+          "fillOpacity": 0.6
+        }
+      }
+    },
+    {
+      "name": "Palificazioni",
+      "type": "features",
+      "interactive": false,
       "datasource": "valle_trebba_palificazioni",
       "style": {
         "style": "mapbox",
@@ -138,9 +140,10 @@
       }
     },
     {
-      "name": "valle_trebba_linee",
+      "name": "Linee",
       "type": "features",
       "datasource": "valle_trebba_linee",
+      "interactive": false,
       "style": {
         "style": "mapbox",
         "mode": "line",
@@ -152,8 +155,9 @@
       }
     },
     {
-      "name": "valle_trebba_dossi_poligoni",
+      "name": "Dossi",
       "type": "features",
+      "interactive": false,
       "datasource": "valle_trebba_dossi_poligoni",
       "style": {
         "style": "mapbox",
