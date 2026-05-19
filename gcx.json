@@ -79,14 +79,37 @@
           "weight": 1,
           "opacity": 1,
           "fillOpacity": 0.6
-        }
+        },
+        "maplibre": [
+          {
+            "type": "circle",
+            "filter": ["==", ["geometry-type"], "Point"],
+            "paint": {
+              "circle-radius": [
+                "interpolate", ["linear"], ["zoom"],
+                12, 2,
+                16, 4,
+                20, 7
+              ],
+              "circle-color": [
+                "match", ["get", "t_rito"],
+                "inumazione", "#5b8def",
+                "cremazione", "#e77148",
+                "#b0b0b0"
+              ],
+              "circle-stroke-color": "#000",
+              "circle-stroke-width": 0.5,
+              "circle-opacity": 0.9
+            }
+          }
+        ]
       },
       "detail": {
         "title": "tomba",
         "media": [
           { "kind": "image", "src": "schizzi/{tomba}.jpg", "label": "Schizzo" },
           { "kind": "html", "src": "tombe/Tomba_{tomba}.html", "label": "Scheda di scavo" },
-          { "kind": "download", "src": "tombe/Tomba_{tomba}.docx", "label": "Versione DOCX" }
+          { "kind": "download", "src": "tombe/VT_Tomba_{tomba}.docx", "label": "Versione DOCX" }
         ]
       }
     },
