@@ -109,6 +109,12 @@
         "media": [
           { "kind": "image", "src": "schizzi/{tomba}.jpg", "label": "Schizzo" },
           { "kind": "html", "src": "tombe/Tomba_{tomba}.html", "label": "Scheda di scavo" },
+          { "kind": "csv-row", "src": "Tombe_VT_151-1213.csv",
+            "key": "Tomba n°:", "match": "{tomba}",
+            "label": "Metadati tomba" },
+          { "kind": "csv-row", "src": "Bibliografia_tombe_171-1213.csv",
+            "key": "N. Tomba", "match": "{tomba}",
+            "label": "Bibliografia essenziale" },
           { "kind": "download", "src": "tombe/VT_Tomba_{tomba}.docx", "label": "Versione DOCX" }
         ]
       }
