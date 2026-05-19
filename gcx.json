@@ -8,6 +8,44 @@
   "minzoom": 1,
   "startzoom": 15,
   "maxzoom": 20,
+  "background": "none",
+  "backgrounds": [
+    {
+      "id": "none",
+      "title": "Nessuno (palude)",
+      "type": "background-color",
+      "conf": { "color": "#3a4633" }
+    },
+    {
+      "id": "osm",
+      "title": "OpenStreetMap",
+      "type": "raster-tiled",
+      "conf": {
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "id": "rer-1976",
+      "title": "Aerofoto RER 1976-78",
+      "type": "image-overlay",
+      "conf": {
+        "url": "backgrounds/rer_1976_78.jpg",
+        "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
+        "attribution": "© Regione Emilia-Romagna, volo 1976-78"
+      }
+    },
+    {
+      "id": "ferrara-1814",
+      "title": "Territorio ferrarese (1814)",
+      "type": "image-overlay",
+      "conf": {
+        "url": "backgrounds/Territorio_ferrarese_1814.png",
+        "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
+        "attribution": "© Regione Emilia-Romagna, Territorio ferrarese 1814"
+      }
+    }
+  ],
   "datasources": [
     {
       "name": "valle_trebba_ustrina",
