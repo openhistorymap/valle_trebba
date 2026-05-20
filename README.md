@@ -55,6 +55,7 @@ Tabelle tabulari complementari, agganciate alle features via id tomba:
 
 - `gcx.json` — configurazione della mappa (livelli, sorgenti, stili, blocco *detail* per ogni tomba). Vedi [FORMAT.md](https://github.com/openhistorymap/geocontext-front/blob/rewrite/angular-latest/FORMAT.md) per lo schema completo.
 - `chcx-static.json` — registro delle pagine statiche associate al progetto (al momento: i *Giornali di scavo*).
+- `datapackage.json` — descrittore [Frictionless Data Package](https://datapackage.org) (v2): metadati, fonti e l'elenco delle risorse dati (i GeoJSON e i CSV, con Table Schema). Rende il repository interoperabile con gli strumenti dell'ecosistema Frictionless; validabile con `frictionless validate datapackage.json`.
 
 ### File di servizio
 

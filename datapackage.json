@@ -1,0 +1,162 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "name": "valle-trebba",
+  "id": "https://github.com/openhistorymap/valle_trebba",
+  "title": "Necropoli etrusca di Valle Trebba",
+  "description": "Rilievo archeologico della necropoli etrusca di Valle Trebba, presso la città etrusca di Spina (Comacchio, Ferrara). Il pacchetto raccoglie la cartografia georeferenziata (tombe, ustrina, palificazioni, dossi), i metadati per tomba e la bibliografia essenziale, per l'arco di numerazione 151-1213. È pubblicato come geocontext per Open History Map (configurazione di mappa in geocontext.json / gcx.json) e come Frictionless Data Package (questo descrittore) per l'interoperabilità con strumenti di validazione e cataloghi.\n\nCollezioni documentali non elencate come risorse tabellari (la specifica non ammette glob e l'enumerazione di migliaia di percorsi sarebbe impraticabile): tombe/VT_Tomba_<n>.docx + .html (1223 schede di scavo per tomba), tombe/Tomba_<n>.{docx,html,md} (sottoinsieme 151-185), schizzi/<n>.jpg (100 disegni), backgrounds/*.tif (catture WMS georeferenziate in GeoTIFF), giornali_di_scavo_151-1213.md (diario di scavo sequenziale, anch'esso risorsa qui sotto).",
+  "homepage": "https://www.openhistorymap.org/geocontext-front/openhistorymap/valle_trebba/map",
+  "version": "1.0.0",
+  "created": "2026-05-20T00:00:00Z",
+  "keywords": [
+    "archaeology",
+    "archeologia",
+    "etruscan",
+    "etruschi",
+    "spina",
+    "valle trebba",
+    "necropolis",
+    "necropoli",
+    "comacchio",
+    "ferrara",
+    "emilia-romagna",
+    "GIS",
+    "geojson"
+  ],
+  "contributors": [
+    {
+      "title": "Marco Montanari",
+      "roles": ["publisher", "wrangler"],
+      "organization": "Open History Map"
+    }
+  ],
+  "sources": [
+    {
+      "title": "N. Proni, Giornali di scavo (1923 e segg.) — testimonianza primaria della campagna originale"
+    },
+    {
+      "title": "F. Berti, Spina. Storia di una città tra Greci ed Etruschi (1983)"
+    },
+    {
+      "title": "A. Trevisanello, tesi di dottorato (2024) — revisione e raccordo dei dati"
+    }
+  ],
+  "resources": [
+    {
+      "name": "valle_trebba_punti_32632",
+      "path": "datasets/valle_trebba_punti_32632.geojson",
+      "title": "Tombe",
+      "description": "Le tombe della necropoli (1226 punti). Ogni feature porta un identificativo `tomba` e attributi archeologici: rito (t_rito), fase (t_fase), struttura (t_struttur), sesso (t_sesso), classe d'età, posizione del corredo, ecc. CRS84 (WGS84). Il suffisso _32632 è storico: i dati NON sono in UTM 32N ma in lon/lat — si veda il blocco crs interno.",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 816237
+    },
+    {
+      "name": "valle_trebba_ustrina",
+      "path": "datasets/valle_trebba_ustrina.geojson",
+      "title": "Ustrina",
+      "description": "Aree di cremazione (ustrina), punti. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 875
+    },
+    {
+      "name": "valle_trebba_palificazioni",
+      "path": "datasets/valle_trebba_palificazioni.geojson",
+      "title": "Palificazioni",
+      "description": "Sistema di palificazioni lignee, punti. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 11959
+    },
+    {
+      "name": "valle_trebba_linee",
+      "path": "datasets/valle_trebba_linee.geojson",
+      "title": "Linee",
+      "description": "Allineamenti, profili di scavo e sezioni, geometrie lineari. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 3666286
+    },
+    {
+      "name": "valle_trebba_dossi_poligoni",
+      "path": "datasets/valle_trebba_dossi_poligoni.geojson",
+      "title": "Dossi (poligoni)",
+      "description": "Poligoni dei dossi sabbiosi (dune) su cui si distribuiscono le tombe, 141 features con etichetta `nome` a livelli (I/II/III). CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 152411
+    },
+    {
+      "name": "valle_trebba_dossi_elevation",
+      "path": "datasets/valle_trebba_dossi_elevation.geojson",
+      "title": "Dossi (modello di quota)",
+      "description": "I poligoni dei dossi arricchiti con un modello di quota relativo derivato dall'annidamento: `containment_depth` conta quanti poligoni contengono ciascun poligono; `elevation_cm` = -10 cm per anello, 0 alla cresta della duna, -80 cm alla pianura paludosa. Usato come sfondo topografico nella mappa. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 148674
+    },
+    {
+      "name": "tombe_metadati",
+      "path": "Tombe_VT_151-1213.csv",
+      "title": "Metadati per tomba",
+      "description": "Scheda sintetica di metadati per tomba (anno di rinvenimento, stato di conservazione, rito, struttura, profondità, dimensioni, orientamento, segnacolo, posizione del corredo, genere, sesso, classi d'età).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 6539,
+      "dialect": { "header": true },
+      "schema": {
+        "primaryKey": ["Tomba n°:"],
+        "fields": [
+          { "name": "Tomba n°:", "type": "string", "title": "Numero della tomba", "description": "Identificativo della tomba; stringa perché alcune tombe hanno sotto-numeri puntati (es. 459.2)." },
+          { "name": "Anno di rinvenimento", "type": "string" },
+          { "name": "Stato di conservazione della tomba", "type": "string" },
+          { "name": "Rito di seppellimento", "type": "string" },
+          { "name": "Struttura tomba", "type": "string" },
+          { "name": "Profondità dal piano di campagna", "type": "string", "description": "Profondità in metri dal piano di campagna; testo perché alcune voci non sono numeriche." },
+          { "name": "Dimensioni della sepoltura", "type": "string" },
+          { "name": "Orientamento dello scheletro", "type": "string" },
+          { "name": "Segnacolo", "type": "string" },
+          { "name": "Posizione del corredo", "type": "string" },
+          { "name": "Genere", "type": "string" },
+          { "name": "Sesso", "type": "string" },
+          { "name": "Classi di età", "type": "string" }
+        ]
+      }
+    },
+    {
+      "name": "bibliografia",
+      "path": "Bibliografia_tombe_171-1213.csv",
+      "title": "Bibliografia essenziale per tomba",
+      "description": "Riferimenti bibliografici minimi per tomba, per l'arco 171-1213.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 43956,
+      "dialect": { "header": true },
+      "schema": {
+        "primaryKey": ["N. Tomba"],
+        "fields": [
+          { "name": "N. Tomba", "type": "string", "title": "Numero della tomba", "description": "Identificativo della tomba; stringa perché alcune tombe hanno sotto-numeri puntati (es. 459.2)." },
+          { "name": "Bibliografia essenziale", "type": "string" }
+        ]
+      }
+    },
+    {
+      "name": "giornali_di_scavo",
+      "path": "giornali_di_scavo_151-1213.md",
+      "title": "Giornali di scavo (151-1213)",
+      "description": "Diario di scavo sequenziale, estratto in Markdown (pandoc -t gfm) dal documento Word originale. Reso come pagina statica nella mappa.",
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "utf-8",
+      "bytes": 1162079
+    }
+  ]
+}
