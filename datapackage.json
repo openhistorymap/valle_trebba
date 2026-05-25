@@ -102,6 +102,36 @@
       "bytes": 148674
     },
     {
+      "name": "lineadicosta",
+      "path": "datasets/lineadicosta.geojson",
+      "title": "Linea di costa",
+      "description": "Ricostruzione della linea di costa antica come poligoni (3 features). Contesto paleoambientale del sito. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 2033
+    },
+    {
+      "name": "palaeochannels",
+      "path": "datasets/palaeochannels.geojson",
+      "title": "Paleoalvei",
+      "description": "Paleoalvei (antichi corsi d'acqua) come poligoni (2 features), con attributo `Tipo` (es. \"Paleoalveo incerto\"). Contesto idrografico antico della laguna spinetica. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 17909
+    },
+    {
+      "name": "ustrina_aree",
+      "path": "datasets/ustrina.geojson",
+      "title": "Ustrina (aree)",
+      "description": "Aree di cremazione (ustrina) come poligoni (5 features) — la controparte areale del livello puntuale valle_trebba_ustrina. CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 40448
+    },
+    {
       "name": "tombe_metadati",
       "path": "Tombe_VT_151-1213.csv",
       "title": "Metadati per tomba",

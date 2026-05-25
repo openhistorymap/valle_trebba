@@ -81,6 +81,27 @@
       "conf": {
         "source": "datasets/valle_trebba_dossi_elevation.geojson"
       }
+    },
+    {
+      "name": "lineadicosta",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/lineadicosta.geojson"
+      }
+    },
+    {
+      "name": "palaeochannels",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/palaeochannels.geojson"
+      }
+    },
+    {
+      "name": "ustrina_aree",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/ustrina.geojson"
+      }
     }
   ],
   "layers": [
@@ -189,6 +210,57 @@
           "color": "#becf50",
           "weight": 2,
           "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "Ustrina (aree)",
+      "type": "features",
+      "interactive": false,
+      "datasource": "ustrina_aree",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#7a2f31",
+          "weight": 1,
+          "opacity": 1,
+          "fillColor": "#b7484b",
+          "fillOpacity": 0.5
+        }
+      }
+    },
+    {
+      "name": "Paleoalvei",
+      "type": "features",
+      "interactive": false,
+      "datasource": "palaeochannels",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#4f7e8a",
+          "weight": 1,
+          "opacity": 0.8,
+          "fillColor": "#79a7b5",
+          "fillOpacity": 0.4
+        }
+      }
+    },
+    {
+      "name": "Linea di costa",
+      "type": "features",
+      "interactive": false,
+      "datasource": "lineadicosta",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#5b7f96",
+          "weight": 1,
+          "opacity": 0.8,
+          "fillColor": "#9fc1d4",
+          "fillOpacity": 0.3
         }
       }
     },
