@@ -102,6 +102,13 @@
       "conf": {
         "source": "datasets/ustrina.geojson"
       }
+    },
+    {
+      "name": "cordoni",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/cordoni.geojson"
+      }
     }
   ],
   "layers": [
@@ -261,6 +268,23 @@
           "opacity": 0.8,
           "fillColor": "#9fc1d4",
           "fillOpacity": 0.3
+        }
+      }
+    },
+    {
+      "name": "Cordoni",
+      "type": "features",
+      "interactive": false,
+      "datasource": "cordoni",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#8a6f48",
+          "weight": 0.6,
+          "opacity": 0.9,
+          "fillColor": "#d4b78a",
+          "fillOpacity": 0.55
         }
       }
     },
