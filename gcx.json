@@ -14,7 +14,7 @@
       "id": "none",
       "title": "Nessuno (palude)",
       "type": "background-color",
-      "conf": { "color": "#3a4633" }
+      "conf": { "color": "#2e2620" }
     },
     {
       "id": "osm",
@@ -324,10 +324,10 @@
         "style": "mapbox",
         "mode": "polygon",
         "options": {
-          "color": "#3e4d36",
+          "color": "#2e2620",
           "weight": 0,
           "opacity": 1,
-          "fillColor": "#b0a070",
+          "fillColor": "#806b4d",
           "fillOpacity": 1
         },
         "maplibre": [
@@ -336,14 +336,14 @@
             "paint": {
               "fill-color": [
                 "interpolate", ["linear"], ["get", "elevation_cm"],
-                -80, "#3e4d36",
-                -60, "#6f6b4c",
-                -40, "#a89972",
-                -20, "#cfba87",
-                  0, "#e8d8aa"
+                -80, "#2e2620",
+                -60, "#4d4034",
+                -40, "#806b4d",
+                -20, "#ad9774",
+                  0, "#d6c79c"
               ],
               "fill-opacity": 1,
-              "fill-outline-color": "#2d3429"
+              "fill-outline-color": "#1c1612"
             }
           }
         ]
