@@ -206,6 +206,26 @@
       }
     },
     {
+      "name": "Palificazioni (legno)",
+      "type": "features",
+      "interactive": false,
+      "datasource": "valle_trebba_palificazioni",
+      "transforms": [
+        { "type": "buffer", "radius": 0.15, "units": "meters" }
+      ],
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#5e3f1f",
+          "weight": 0.5,
+          "opacity": 0.9,
+          "fillColor": "#8c6239",
+          "fillOpacity": 0.7
+        }
+      }
+    },
+    {
       "name": "Linee",
       "type": "features",
       "datasource": "valle_trebba_linee",
