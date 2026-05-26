@@ -109,6 +109,16 @@
       "conf": {
         "source": "datasets/cordoni.geojson"
       }
+    },
+    {
+      "name": "palificazioni_legno",
+      "type": "transform",
+      "conf": {
+        "from": "valle_trebba_palificazioni",
+        "transforms": [
+          { "type": "buffer", "radius": 0.15, "units": "meters" }
+        ]
+      }
     }
   ],
   "layers": [
@@ -209,10 +219,7 @@
       "name": "Palificazioni (legno)",
       "type": "features",
       "interactive": false,
-      "datasource": "valle_trebba_palificazioni",
-      "transforms": [
-        { "type": "buffer", "radius": 0.15, "units": "meters" }
-      ],
+      "datasource": "palificazioni_legno",
       "style": {
         "style": "mapbox",
         "mode": "polygon",
