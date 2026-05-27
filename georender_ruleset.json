@@ -18,7 +18,15 @@
       "z_index": 2,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Paleoalvei"},
-      "symbolizer": {"type": "polygon_fill", "fill": "#79a7b566"}
+      "symbolizer": {
+        "type": "polygon_texture",
+        "asset": "vt.mappa_1814",
+        "tile_size_px": 512,
+        "rotation": 0,
+        "opacity": 0.85,
+        "tint": "#79a7b5"
+      },
+      "edge_fade": {"distance_px": 6}
     },
     {
       "name": "dossi",
