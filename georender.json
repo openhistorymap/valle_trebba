@@ -9,6 +9,7 @@
       } 
     },
     "base": {"lat": 44.702654, "lng": 12.121156, "zoom": 15},
+    "bbox": [12.077837,44.712952,12.163496,44.759655],
     "render": {"width": 4096, "height": 4096, "padding_px": 64},
     "geocontext": {                      
       "manifest": "gcx.json",         
