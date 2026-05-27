@@ -13,7 +13,7 @@
       "filter": {"__layer": "Linea di costa"},
       "symbolizer": {
         "type": "polygon_texture",
-        "asset": "vt.mappa_1814",
+        "asset": "vt.acqua_increspata",
         "tile_size_px": 512,
         "rotation": 0,
         "opacity": 0.75,
@@ -43,7 +43,7 @@
       "filter": {"__layer": "Dossi"},
       "symbolizer": {
         "type": "polygon_texture",
-        "asset": "vt.aerofoto_1976",
+        "asset": "vt.sabbia",
         "tile_size_px": 384,
         "rotation": 0,
         "opacity": 1.0
