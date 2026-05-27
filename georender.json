@@ -6,26 +6,10 @@
   },
   "base": { "lat": 44.702654, "lng": 12.121156, "zoom": 15 },
   "bbox": [12.089725, 44.695627, 12.127533, 44.722283],
-  "render": { "width": 4096, "height": 4096, "padding_px": 64 },
+  "render": { "width": 10000, "height": 10000, "padding_px": 64 },
 
   "assets": {
     "vt": {
-      "aerofoto_1976": {
-        "file": "backgrounds/rer_1976_78.jpg",
-        "type": "raster",
-        "description": "Foto aerea della Regione Emilia-Romagna, volo 1976-78. JPEG browser-friendly (1834×2538 px) estratto via WMS GetMap dal layer `RER_1976_78` (servizigis.regione.emilia-romagna.it), georeferenziato sul bbox dei dati di Valle Trebba. La versione archivio in GeoTIFF (con metadati georef intatti) è in `backgrounds/rer_1976_78.tif`.",
-        "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
-        "crs": "EPSG:4326",
-        "attribution": "© Regione Emilia-Romagna — volo 1976-78"
-      },
-      "mappa_1814": {
-        "file": "backgrounds/Territorio_ferrarese_1814.png",
-        "type": "raster",
-        "description": "Carta storica del territorio ferrarese, 1814. PNG (1834×2538 px) estratto dal WMS `Territorio_ferrarese_1814` e georeferenziato sullo stesso bbox dei dati. Mostra la configurazione idrografica e amministrativa di inizio Ottocento — utile come tessitura per la linea di costa o i paleoalvei. Versione archivio in GeoTIFF: `backgrounds/Territorio_ferrarese_1814.tif`.",
-        "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
-        "crs": "EPSG:4326",
-        "attribution": "© Regione Emilia-Romagna — Territorio ferrarese 1814"
-      },
       "acqua_increspata": {
         "file": "assets/blue-rippled-water-background.jpg",
         "type": "texture",

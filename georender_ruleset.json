@@ -44,9 +44,9 @@
       "symbolizer": {
         "type": "polygon_texture",
         "asset": "vt.sabbia",
-        "tile_size_px": 384,
+        "tile_size_px": 128,
         "rotation": 0,
-        "opacity": 1.0
+        "opacity": 0.3
       },
       "edge_fade": {"distance_px": 6}
     },
@@ -58,7 +58,7 @@
       "symbolizer": {
         "type": "polygon_texture",
         "asset": "vt.sabbia",
-        "tile_size_px": 384,
+        "tile_size_px": 128,
         "rotation": 0,
         "opacity": 0.85,
         "tint": "#d4b78a"
