@@ -21,10 +21,31 @@
       "mappa_1814": {
         "file": "backgrounds/Territorio_ferrarese_1814.png",
         "type": "raster",
-        "description": "Carta storica del territorio ferrarese, 1814. PNG (1834×2538 px) estratto dal WMS `Territorio_ferrarese_1814` e georeferenziato sullo stesso bbox dei dati. Mostra la configurazione idrografica e amministrativa di inizio Ottocento — utile come tessitura per i paleoalvei. Versione archivio in GeoTIFF: `backgrounds/Territorio_ferrarese_1814.tif`.",
+        "description": "Carta storica del territorio ferrarese, 1814. PNG (1834×2538 px) estratto dal WMS `Territorio_ferrarese_1814` e georeferenziato sullo stesso bbox dei dati. Mostra la configurazione idrografica e amministrativa di inizio Ottocento — utile come tessitura per la linea di costa o i paleoalvei. Versione archivio in GeoTIFF: `backgrounds/Territorio_ferrarese_1814.tif`.",
         "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
         "crs": "EPSG:4326",
         "attribution": "© Regione Emilia-Romagna — Territorio ferrarese 1814"
+      },
+      "acqua_increspata": {
+        "file": "assets/blue-rippled-water-background.jpg",
+        "type": "texture",
+        "description": "Texture tileable di acqua azzurra increspata. Usata come riempimento dei paleoalvei (antichi corsi d'acqua) per evocare specchi d'acqua poco profondi senza ancorarli a una georeferenza.",
+        "tileable": true,
+        "attribution": "stock texture"
+      },
+      "sabbia": {
+        "file": "assets/everytexture.com-stock-nature-sand-00048 (1).jpg",
+        "type": "texture",
+        "description": "Texture tileable di sabbia naturale. Usata come riempimento dei cordoni dunari (creste sabbiose) per richiamare la natura del substrato.",
+        "tileable": true,
+        "attribution": "everytexture.com (stock-nature-sand-00048)"
+      },
+      "quercia": {
+        "file": "assets/oak-3275-mm-architextures.jpg",
+        "type": "texture",
+        "description": "Texture tileable di legno di quercia. Usata come riempimento dell'impronta lignea dei pali (Palificazioni — legno), il buffer da 15 cm dei pali di sostegno.",
+        "tileable": true,
+        "attribution": "architextures.com (oak-3275-mm)"
       }
     }
   }

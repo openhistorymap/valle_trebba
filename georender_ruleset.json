@@ -11,7 +11,15 @@
       "z_index": 1,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Linea di costa"},
-      "symbolizer": {"type": "polygon_fill", "fill": "#9fc1d44d"}
+      "symbolizer": {
+        "type": "polygon_texture",
+        "asset": "vt.mappa_1814",
+        "tile_size_px": 512,
+        "rotation": 0,
+        "opacity": 0.75,
+        "tint": "#9fc1d4"
+      },
+      "edge_fade": {"distance_px": 6}
     },
     {
       "name": "paleoalvei",
@@ -20,13 +28,13 @@
       "filter": {"__layer": "Paleoalvei"},
       "symbolizer": {
         "type": "polygon_texture",
-        "asset": "vt.mappa_1814",
-        "tile_size_px": 512,
+        "asset": "vt.acqua_increspata",
+        "tile_size_px": 256,
         "rotation": 0,
-        "opacity": 0.85,
+        "opacity": 0.65,
         "tint": "#79a7b5"
       },
-      "edge_fade": {"distance_px": 6}
+      "edge_fade": {"distance_px": 8}
     },
     {
       "name": "dossi",
@@ -47,7 +55,15 @@
       "z_index": 3,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Cordoni"},
-      "symbolizer": {"type": "polygon_fill", "fill": "#d4b78a8c"}
+      "symbolizer": {
+        "type": "polygon_texture",
+        "asset": "vt.sabbia",
+        "tile_size_px": 384,
+        "rotation": 0,
+        "opacity": 0.85,
+        "tint": "#d4b78a"
+      },
+      "edge_fade": {"distance_px": 6}
     },
     {
       "name": "ustrina-aree",
@@ -61,7 +77,14 @@
       "z_index": 6,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Palificazioni (legno)"},
-      "symbolizer": {"type": "polygon_fill", "fill": "#8c6239b3"}
+      "symbolizer": {
+        "type": "polygon_texture",
+        "asset": "vt.quercia",
+        "tile_size_px": 64,
+        "rotation": 0,
+        "opacity": 0.9,
+        "tint": "#8c6239"
+      }
     }
   ]
 }
