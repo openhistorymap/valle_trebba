@@ -1,8 +1,16 @@
 {
-  "type": "GeoRender",
-  "version": "1.0",
-  "assets":"assets/default.json",
-  "rulesets": {"default": "georender_ruleset.json"}
-  "bbox": [12.077837,44.712952,12.163496,44.759655],
-  "output": {"width": 4096, "height": 4096}
-}
+    "version": 1,
+    "ruleset": "georender_ruleset.json",          // path in repo, or inline ruleset object
+    "assets": {                          // optional: collections to register for this render
+      "vt": {
+        "aerofoto_1976": {
+          "file": "backgrounds/rer_1976_78.jpg"   // bare paths auto-rewrite to github://
+        }
+      } 
+    },
+    "base": {"lat": 44.702654, "lng": 12.121156, "zoom": 15},
+    "render": {"width": 4096, "height": 4096, "padding_px": 64},
+    "geocontext": {                      // optional overrides for the data side
+      "manifest": "gcx.json",         
+    }
+  }
