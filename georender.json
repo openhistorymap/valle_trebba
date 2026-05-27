@@ -6,7 +6,7 @@
   },
   "base": { "lat": 44.702654, "lng": 12.121156, "zoom": 15 },
   "bbox": [12.089725, 44.695627, 12.127533, 44.722283],
-  "render": { "width": 10000, "height": 10000, "padding_px": 64 },
+  "render": { "width": 15000, "height": 15000, "padding_px": 64 },
 
   "assets": {
     "vt": {

@@ -60,8 +60,8 @@
         "asset": "vt.sabbia",
         "tile_size_px": 128,
         "rotation": 0,
-        "opacity": 0.85,
-        "tint": "#d4b78a"
+        "opacity": 0.55,
+        "tint": "#8f6d35"
       },
       "edge_fade": {"distance_px": 6}
     },
