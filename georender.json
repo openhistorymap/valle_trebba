@@ -1,0 +1,8 @@
+{
+  "type": "GeoRender",
+  "version": "1.0",
+  "assets":"assets/default.json",
+  "rulesets": {"default": "georender_ruleset.json"}
+  "bbox": [12.077837,44.712952,12.163496,44.759655],
+  "output": {"width": 4096, "height": 4096}
+}
