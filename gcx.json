@@ -393,23 +393,6 @@
       }
     },
     {
-      "name": "Cordoni",
-      "type": "features",
-      "interactive": false,
-      "datasource": "cordoni",
-      "style": {
-        "style": "mapbox",
-        "mode": "polygon",
-        "options": {
-          "color": "#8a6f48",
-          "weight": 0.6,
-          "opacity": 0.9,
-          "fillColor": "#d4b78a",
-          "fillOpacity": 0.55
-        }
-      }
-    },
-    {
       "name": "Dossi (Valle Pega)",
       "type": "features",
       "interactive": false,
@@ -458,6 +441,23 @@
             }
           }
         ]
+      }
+    },
+    {
+      "name": "Cordoni",
+      "type": "features",
+      "interactive": false,
+      "datasource": "cordoni",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#8a6f48",
+          "weight": 0.6,
+          "opacity": 0.9,
+          "fillColor": "#d4b78a",
+          "fillOpacity": 0.55
+        }
       }
     }
   ]
