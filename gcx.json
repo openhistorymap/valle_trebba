@@ -8,6 +8,14 @@
   "minzoom": 1,
   "startzoom": 15,
   "maxzoom": 24,
+  "dem": {
+    "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
+    "encoding": "terrarium",
+    "hillshade": true,
+    "terrain": false,
+    "exaggeration": 3.0,
+    "attribution": "© Mapzen / Terrarium tiles via AWS Open Data"
+  },
   "background": "none",
   "backgrounds": [
     {
