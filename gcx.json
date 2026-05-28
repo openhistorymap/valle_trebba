@@ -8,6 +8,7 @@
   "minzoom": 1,
   "startzoom": 15,
   "maxzoom": 24,
+  "bbox": [11.95, 44.55, 12.30, 44.78],
   "dem": {
     "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
     "encoding": "terrarium",
