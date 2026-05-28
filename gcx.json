@@ -36,6 +36,20 @@
       }
     },
     {
+      "id": "rer-1976-wms",
+      "title": "Aerofoto RER 1976-78 (WMS regionale)",
+      "type": "wms-tiled",
+      "conf": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/rer_1976_78",
+        "layers": "RER_1976_78",
+        "format": "image/jpeg",
+        "version": "1.3.0",
+        "crs": "EPSG:3857",
+        "transparent": false,
+        "attribution": "© Regione Emilia-Romagna, volo 1976-78"
+      }
+    },
+    {
       "id": "ferrara-1814",
       "title": "Territorio ferrarese (1814)",
       "type": "image-overlay",
