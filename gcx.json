@@ -12,8 +12,8 @@
     "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
     "encoding": "terrarium",
     "hillshade": true,
-    "terrain": false,
-    "exaggeration": 3.0,
+    "terrain": true,
+    "exaggeration": 2.0,
     "attribution": "© Mapzen / Terrarium tiles via AWS Open Data"
   },
   "background": "none",
