@@ -74,7 +74,7 @@
     },
     {
       "name": "palificazioni-legno",
-      "z_index": 6,
+      "z_index": 7,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Palificazioni (legno)"},
       "symbolizer": {
@@ -88,7 +88,7 @@
     },
     {
       "name": "passerelle",
-      "z_index": 7,
+      "z_index": 6,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Passerelle"},
       "symbolizer": {
