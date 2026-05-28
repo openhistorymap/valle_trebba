@@ -85,6 +85,20 @@
         "opacity": 0.9,
         "tint": "#8c6239"
       }
+    },
+    {
+      "name": "passerelle",
+      "z_index": 7,
+      "geometry": ["Polygon", "MultiPolygon"],
+      "filter": {"__layer": "Passerelle"},
+      "symbolizer": {
+        "type": "polygon_texture",
+        "asset": "vt.quercia",
+        "tile_size_px": 96,
+        "rotation": 0,
+        "opacity": 0.85,
+        "tint": "#a8814f"
+      }
     }
   ]
 }
