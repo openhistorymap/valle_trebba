@@ -58,6 +58,18 @@
         "bounds": [12.103627, 44.695303, 12.126806, 44.718105],
         "attribution": "© Regione Emilia-Romagna, Territorio ferrarese 1814"
       }
+    },
+    {
+      "id": "ferrara-1814-arcgis",
+      "title": "Territorio ferrarese 1814 (ArcGIS regionale)",
+      "type": "arcgis-image",
+      "conf": {
+        "url": "https://servizigis.regione.emilia-romagna.it/arcgis/rest/services/public/Territorio_ferrarese_1814/ImageServer",
+        "operation": "exportImage",
+        "format": "png32",
+        "transparent": false,
+        "attribution": "© Regione Emilia-Romagna, Territorio ferrarese 1814"
+      }
     }
   ],
   "datasources": [
