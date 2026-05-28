@@ -152,6 +152,20 @@
       "conf": {
         "source": "datasets/passerelle.geojson"
       }
+    },
+    {
+      "name": "valle_pega_dossi",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/valle_pega_dossi.geojson"
+      }
+    },
+    {
+      "name": "abitato",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/abitato.geojson"
+      }
     }
   ],
   "layers": [
@@ -315,6 +329,23 @@
       }
     },
     {
+      "name": "Abitato",
+      "type": "features",
+      "interactive": false,
+      "datasource": "abitato",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#3a1a08",
+          "weight": 0.8,
+          "opacity": 0.95,
+          "fillColor": "#8a5530",
+          "fillOpacity": 0.55
+        }
+      }
+    },
+    {
       "name": "Paleoalvei",
       "type": "features",
       "interactive": false,
@@ -362,6 +393,23 @@
           "opacity": 0.9,
           "fillColor": "#d4b78a",
           "fillOpacity": 0.55
+        }
+      }
+    },
+    {
+      "name": "Dossi (Valle Pega)",
+      "type": "features",
+      "interactive": false,
+      "datasource": "valle_pega_dossi",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#2e2620",
+          "weight": 0.5,
+          "opacity": 0.85,
+          "fillColor": "#806b4d",
+          "fillOpacity": 1
         }
       }
     },

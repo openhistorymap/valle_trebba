@@ -142,6 +142,26 @@
       "bytes": 2059
     },
     {
+      "name": "valle_pega_dossi",
+      "path": "datasets/valle_pega_dossi.geojson",
+      "title": "Dossi (Valle Pega)",
+      "description": "Dossi sabbiosi della necropoli di Valle Pega — la necropoli gemella di Valle Trebba, sempre della città etrusca di Spina, situata a sud del sito di Valle Trebba. Poligoni (13 features). Attributi: `Dosso`/`dosso_sint` (etichetta del dosso), `nome`, `tipo`, `id`, `Fonte` (citazione bibliografica, es. \"Desantis 2017, tav 44b\"), `Precisione` (grado di affidabilità del rilievo), `Shape_Area`, `Shape_Leng`/`Shape_Le_1` (misure derivate). CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 46309
+    },
+    {
+      "name": "abitato",
+      "path": "datasets/abitato.geojson",
+      "title": "Abitato di Spina",
+      "description": "Footprint dell'abitato etrusco di Spina — la città portuale dell'alto Adriatico tra il VI e il III secolo a.C. il cui scavalo ha dato origine al complesso necropolare di Valle Trebba e Valle Pega. Singolo poligono (1 feature). Attributi: `id`, `nome` (\"Abitato\"), `tipo` (\"certo\" — il rilievo dell'abitato è considerato certo, non ipotetico). CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 4878
+    },
+    {
       "name": "cordoni",
       "path": "datasets/cordoni.geojson",
       "title": "Cordoni (dune ridges)",
