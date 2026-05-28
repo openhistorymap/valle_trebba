@@ -145,6 +145,13 @@
           { "type": "buffer", "radius": 0.15, "units": "meters" }
         ]
       }
+    },
+    {
+      "name": "passerelle",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/passerelle.geojson"
+      }
     }
   ],
   "layers": [
@@ -255,6 +262,23 @@
           "opacity": 0.9,
           "fillColor": "#8c6239",
           "fillOpacity": 0.7
+        }
+      }
+    },
+    {
+      "name": "Passerelle",
+      "type": "features",
+      "interactive": false,
+      "datasource": "passerelle",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#6e4f2c",
+          "weight": 0.6,
+          "opacity": 0.9,
+          "fillColor": "#a8814f",
+          "fillOpacity": 0.75
         }
       }
     },

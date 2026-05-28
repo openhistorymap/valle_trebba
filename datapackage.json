@@ -132,14 +132,24 @@
       "bytes": 40448
     },
     {
-      "name": "cordoni",
-      "path": "datasets/cordoni.geojson",
-      "title": "Cordoni (dune ridges)",
-      "description": "Cordoni dunari (creste sabbiose) come poligoni (173 features). Contesto geomorfologico della costa antica. Attributi: ID_1, fid, id, id_2, morpho, largeur/width (larghezza), `Surface m\\ufffd` (l'unità è metri quadri; il nome porta un U+FFFD al posto del carattere `²`, preservato come trovato). CRS84 (WGS84).",
+      "name": "passerelle",
+      "path": "datasets/passerelle.geojson",
+      "title": "Passerelle (walkways)",
+      "description": "Ricostruzione delle passerelle lignee — camminamenti in legno che collegavano i dossi attraverso la pianura paludosa attorno alla città di Spina. Poligoni (3 features), nessun attributo. CRS84 (WGS84).",
       "format": "geojson",
       "mediatype": "application/geo+json",
       "encoding": "utf-8",
-      "bytes": 525140
+      "bytes": 2059
+    },
+    {
+      "name": "cordoni",
+      "path": "datasets/cordoni.geojson",
+      "title": "Cordoni (dune ridges)",
+      "description": "Cordoni dunari (creste sabbiose) come poligoni (172 features). Contesto geomorfologico della costa antica. Attributi: ID_1, fid, id, id_2, morpho, largeur/width (larghezza), `Surface m\\ufffd` (l'unità è metri quadri; il nome porta un U+FFFD al posto del carattere `²`, preservato come trovato). CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 523809
     },
     {
       "name": "tombe_metadati",
