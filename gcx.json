@@ -8,7 +8,7 @@
   "minzoom": 1,
   "startzoom": 15,
   "maxzoom": 24,
-  "bbox": [11.95, 44.55, 12.30, 44.78],
+  "bbox":[12.095604,44.682080,12.160835,44.721003],
   "dem": {
     "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png",
     "encoding": "terrarium",
@@ -257,6 +257,8 @@
       "type": "features",
       "interactive": false,
       "datasource": "valle_trebba_palificazioni",
+      "visible":false,
+      "togglable":true,
       "style": {
         "style": "mapbox",
         "mode": "marker",
@@ -310,6 +312,8 @@
       "type": "features",
       "datasource": "valle_trebba_linee",
       "interactive": false,
+      "visible":false,
+      "togglable":true,
       "style": {
         "style": "mapbox",
         "mode": "line",
