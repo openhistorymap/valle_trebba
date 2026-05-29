@@ -459,10 +459,10 @@
         "style": "mapbox",
         "mode": "polygon",
         "options": {
-          "color": "#8a6f48",
+          "color": "#d6c79c",
           "weight": 0.6,
           "opacity": 0.6,
-          "fillColor": "#d4b78a",
+          "fillColor": "#d6c79c",
           "fillOpacity": 0.45
         }
       }
