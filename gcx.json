@@ -408,10 +408,10 @@
         "style": "mapbox",
         "mode": "polygon",
         "options": {
-          "color": "#2e2620",
+          "color": "#806b4d",
           "weight": 0.5,
           "opacity": 0.85,
-          "fillColor": "#ad9774",
+          "fillColor": "#806b4d",
           "fillOpacity": 1
         }
       }
