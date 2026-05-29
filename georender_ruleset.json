@@ -57,7 +57,8 @@
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.3
+        "opacity": 0.45,
+        "tint": "#c4a76b"
       },
       "edge_fade": {"distance_px": 12}
     },
@@ -72,7 +73,7 @@
         "tile_size_px": 64,
         "rotation": 0,
         "opacity": 0.55,
-        "tint": "#806b4d"
+        "tint": "#cc6f33"
       },
       "edge_fade": {"distance_px": 10}
     },
@@ -83,7 +84,7 @@
       "filter": {"__layer": "Abitato"},
       "symbolizer": {
         "type": "polygon_fill",
-        "fill": "#8a553099"
+        "fill": "#cc6f3399"
       },
       "edge_fade": {"distance_px": 8}
     },
@@ -97,8 +98,8 @@
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.45,
-        "tint": "#4d4034"
+        "opacity": 0.55,
+        "tint": "#dcc27a"
       },
       "edge_fade": {"distance_px": 12}
     },
