@@ -13,7 +13,7 @@
       "filter": {"__layer": "Sfondo"},
       "symbolizer": {
         "type": "polygon_fill",
-        "fill": "#3a3128d9"
+        "fill": "#b5ba99d9"
       },
       "edge_fade": {"distance_px": 24}
     },
@@ -97,8 +97,8 @@
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.55,
-        "tint": "#8f6d35"
+        "opacity": 0.45,
+        "tint": "#4d4034"
       },
       "edge_fade": {"distance_px": 12}
     },
