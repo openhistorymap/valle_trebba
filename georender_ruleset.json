@@ -7,6 +7,17 @@
   },
   "rules": [
     {
+      "name": "sfondo",
+      "z_index": 0,
+      "geometry": ["Polygon", "MultiPolygon"],
+      "filter": {"__layer": "Sfondo"},
+      "symbolizer": {
+        "type": "polygon_fill",
+        "fill": "#3a3128d9"
+      },
+      "edge_fade": {"distance_px": 24}
+    },
+    {
       "name": "linea-di-costa",
       "z_index": 1,
       "geometry": ["Polygon", "MultiPolygon"],

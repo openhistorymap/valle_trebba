@@ -175,6 +175,13 @@
       "conf": {
         "source": "datasets/abitato.geojson"
       }
+    },
+    {
+      "name": "sfondo",
+      "type": "geojson+http+remote",
+      "conf": {
+        "source": "datasets/Sfondo.geojson"
+      }
     }
   ],
   "layers": [
@@ -457,6 +464,23 @@
           "opacity": 0.6,
           "fillColor": "#d4b78a",
           "fillOpacity": 0.45
+        }
+      }
+    },
+    {
+      "name": "Sfondo",
+      "type": "features",
+      "interactive": false,
+      "datasource": "sfondo",
+      "style": {
+        "style": "mapbox",
+        "mode": "polygon",
+        "options": {
+          "color": "#1c1612",
+          "weight": 1,
+          "opacity": 0.7,
+          "fillColor": "#3a3128",
+          "fillOpacity": 0.85
         }
       }
     }

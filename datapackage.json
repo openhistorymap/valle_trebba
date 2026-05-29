@@ -105,11 +105,11 @@
       "name": "lineadicosta",
       "path": "datasets/lineadicosta.geojson",
       "title": "Linea di costa",
-      "description": "Ricostruzione della linea di costa antica come poligoni (3 features). Contesto paleoambientale del sito. CRS84 (WGS84).",
+      "description": "Ricostruzione della linea di costa antica come singolo poligono unito (1 feature). Contesto paleoambientale del sito di Spina. Attributi: `id`, `fid`. CRS84 (WGS84).",
       "format": "geojson",
       "mediatype": "application/geo+json",
       "encoding": "utf-8",
-      "bytes": 2033
+      "bytes": 3635
     },
     {
       "name": "palaeochannels",
@@ -135,11 +135,11 @@
       "name": "passerelle",
       "path": "datasets/passerelle.geojson",
       "title": "Passerelle (walkways)",
-      "description": "Ricostruzione delle passerelle lignee — camminamenti in legno che collegavano i dossi attraverso la pianura paludosa attorno alla città di Spina. Poligoni (3 features), nessun attributo. CRS84 (WGS84).",
+      "description": "Ricostruzione delle passerelle lignee — camminamenti e pontili in legno che collegavano i dossi attraverso la pianura paludosa attorno alla città di Spina. MultiPoligoni (3 features). Attributi: `id`, `fid`, `Pontile` (etichetta opzionale del pontile / banchina). CRS84 (WGS84).",
       "format": "geojson",
       "mediatype": "application/geo+json",
       "encoding": "utf-8",
-      "bytes": 2059
+      "bytes": 7106
     },
     {
       "name": "valle_pega_dossi",
@@ -160,6 +160,16 @@
       "mediatype": "application/geo+json",
       "encoding": "utf-8",
       "bytes": 4878
+    },
+    {
+      "name": "sfondo",
+      "path": "datasets/Sfondo.geojson",
+      "title": "Sfondo (area-of-interest / cartographic backdrop)",
+      "description": "Poligono di sfondo del rilievo — definisce il perimetro dell'area di interesse cartografica, da rendere come mat scuro sotto tutti gli altri livelli. Singola MultiPolygon (1 feature) con attributi `id`, `fid`, `Bordo` (etichetta opzionale del bordo). CRS84 (WGS84).",
+      "format": "geojson",
+      "mediatype": "application/geo+json",
+      "encoding": "utf-8",
+      "bytes": 2225
     },
     {
       "name": "cordoni",
