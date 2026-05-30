@@ -94,12 +94,12 @@
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Cordoni"},
       "symbolizer": {
-        "type": "polygon_texture",
+        "type": "polygon_fill",
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.6,
-        "tint": "#f0e0a8"
+        "opacity": 0.3,
+        "fill": "#E3DCD6"
       },
       "edge_fade": {"distance_px": 12}
     },
@@ -116,12 +116,12 @@
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Palificazioni (legno)"},
       "symbolizer": {
-        "type": "polygon_texture",
+        "type": "polygon_fill",
         "asset": "vt.quercia",
         "tile_size_px": 64,
         "rotation": 0,
         "opacity": 0.9,
-        "tint": "#8c6239"
+        "fill": "#8c6239"
       }
     },
     {
