@@ -1,6 +1,6 @@
 {
   "name": "valle-trebba",
-  "background": "#2e2620",
+  "background": "#2e262000",
   "asset_collections": {
     "demo": "demo",
     "vt": "valle_trebba"
