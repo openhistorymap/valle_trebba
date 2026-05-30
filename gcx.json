@@ -461,9 +461,9 @@
         "options": {
           "color": "#4d4034",
           "weight": 0.6,
-          "opacity": 0.6,
+          "opacity": 0.4,
           "fillColor": "#4d4034",
-          "fillOpacity": 0.45
+          "fillOpacity": 0.25
         }
       }
     },
