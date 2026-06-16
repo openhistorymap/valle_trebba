@@ -97,9 +97,6 @@
       "filter": {"__layer": "Cordoni"},
       "symbolizer": {
         "type": "polygon_fill",
-        "asset": "vt.sabbia",
-        "tile_size_px": 64,
-        "rotation": 0,
         "opacity": 0.3,
         "fill": "#E3DCD6"
       },
@@ -119,9 +116,6 @@
       "filter": {"__layer": "Palificazioni (legno)"},
       "symbolizer": {
         "type": "polygon_fill",
-        "asset": "vt.quercia",
-        "tile_size_px": 64,
-        "rotation": 0,
         "opacity": 0.9,
         "fill": "#8c6239"
       }
