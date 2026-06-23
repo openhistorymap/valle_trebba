@@ -1,17 +1,22 @@
-# Valle Trebba — flat textured plane
-# Texture: valle-trebba-5.png (4096 x 6937)
+# Valle Trebba — flat textured plane in real-world dimensions
+# Texture: valle-trebba-5.png (5000 x 5000, square; renderer stretched the
+# rectangular bbox into a square canvas, so applying it to this rectangular
+# plane restores the correct geographic proportions).
+#
 # Geo bbox (EPSG:4326):
 #   W 12.06510176  S 44.65223970
 #   E 12.13350624  N 44.76809672
+#
 # Plane on Z=0, +X = east, +Y = north, +Z = up.
-# Size: 1.0 (E-W) x 1.693848 (N-S), unit-normalised — scale as needed.
+# Units: kilometres (1 unit = 1 km).
+# Size: 5.4206 (E-W) x 12.8747 (N-S)  — territory covered by the necropolis.
 
 mtllib valle-trebba-5.mtl
 
 v 0.000000 0.000000 0.000000
-v 1.000000 0.000000 0.000000
-v 1.000000 1.693848 0.000000
-v 0.000000 1.693848 0.000000
+v 5.420600 0.000000 0.000000
+v 5.420600 12.874700 0.000000
+v 0.000000 12.874700 0.000000
 
 vt 0.000000 0.000000
 vt 1.000000 0.000000
