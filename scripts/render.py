@@ -101,18 +101,27 @@ with tempfile.TemporaryDirectory(prefix='render_') as tmp:
             src_path, mask,
         ])
 
-        # Build the per-layer alpha: blur for soft edge, scale by opacity.
-        # IM's `-morphology Distance Euclidean:N` clamps to 0 past N steps,
-        # so a small distance_px zeros the whole mask; Gaussian blur is the
-        # robust fallback.
+        # Build the per-layer alpha. Gaussian blur softens edges, but on
+        # narrow polygons it also eats the interior — at op=1.0 the
+        # interior was coming out at ~50%. Solve by Lighten-compositing
+        # the blurred edge over the original hard mask: interior stays at
+        # 255, blur only extends the outward fade.
         alpha = f'{tmp}/{rule["name"]}_alpha.png'
         blur_radius = max(edge_fade / 2.0, 0.0)
-        run([
-            'convert', mask,
-            '-blur', f'0x{blur_radius}',
-            '-evaluate', 'Multiply', str(op),
-            alpha,
-        ])
+        if blur_radius > 0:
+            run([
+                'convert', mask,
+                '(', '+clone', '-blur', f'0x{blur_radius}', ')',
+                '-compose', 'Lighten', '-composite',
+                '-evaluate', 'Multiply', str(op),
+                alpha,
+            ])
+        else:
+            run([
+                'convert', mask,
+                '-evaluate', 'Multiply', str(op),
+                alpha,
+            ])
 
         tinted = f'{tmp}/{rule["name"]}_tinted.png'
         run([
