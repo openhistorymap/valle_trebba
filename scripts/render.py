@@ -101,23 +101,23 @@ with tempfile.TemporaryDirectory(prefix='render_') as tmp:
             src_path, mask,
         ])
 
-        if edge_fade > 0:
-            faded = f'{tmp}/{rule["name"]}_faded.png'
-            run([
-                'convert', mask,
-                '-morphology', 'Distance', f'Euclidean:{int(edge_fade)+2}',
-                '-evaluate', 'Multiply', f'{255.0/edge_fade}',
-                '-evaluate', 'Min', '255',
-                '-depth', '8',
-                faded,
-            ])
-            mask = faded
+        # Build the per-layer alpha: blur for soft edge, scale by opacity.
+        # IM's `-morphology Distance Euclidean:N` clamps to 0 past N steps,
+        # so a small distance_px zeros the whole mask; Gaussian blur is the
+        # robust fallback.
+        alpha = f'{tmp}/{rule["name"]}_alpha.png'
+        blur_radius = max(edge_fade / 2.0, 0.0)
+        run([
+            'convert', mask,
+            '-blur', f'0x{blur_radius}',
+            '-evaluate', 'Multiply', str(op),
+            alpha,
+        ])
 
         tinted = f'{tmp}/{rule["name"]}_tinted.png'
         run([
             'convert', '-size', f'{TW}x{TH}', f'xc:rgb({r},{g},{b})',
-            mask, '-alpha', 'off', '-compose', 'CopyOpacity', '-composite',
-            '-channel', 'A', '-evaluate', 'Multiply', str(op), '+channel',
+            alpha, '-compose', 'CopyOpacity', '-composite',
             tinted,
         ])
 
