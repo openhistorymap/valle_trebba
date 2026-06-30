@@ -20,6 +20,18 @@
       }
     },
     {
+      "name": "sfondo",
+      "z_index": 0,
+      "geometry": ["Polygon", "MultiPolygon"],
+      "filter": {"__layer": "Sfondo"},
+      "symbolizer": {
+        "type": "polygon_fill",
+        "opacity": 0.55,
+        "fill": "#84826a"
+      },
+      "edge_fade": {"distance_px": 24}
+    },
+    {
       "name": "linea-di-costa",
       "z_index": 1,
       "geometry": ["Polygon", "MultiPolygon"],
