@@ -29,7 +29,7 @@
         "asset": "vt.acqua_increspata",
         "tile_size_px": 512,
         "rotation": 0,
-        "opacity": 0.35,
+        "opacity": 0.22,
         "tint": "#9fc1d4"
       },
       "edge_fade": {"distance_px": 6}
@@ -44,7 +44,7 @@
         "asset": "vt.acqua_increspata",
         "tile_size_px": 256,
         "rotation": 0,
-        "opacity": 0.35,
+        "opacity": 0.22,
         "tint": "#79a7b5"
       },
       "edge_fade": {"distance_px": 16}
@@ -59,7 +59,7 @@
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.40,
+        "opacity": 0.30,
         "tint": "#c4a76b"
       },
       "edge_fade": {"distance_px": 12}
@@ -74,7 +74,7 @@
         "asset": "vt.sabbia",
         "tile_size_px": 64,
         "rotation": 0,
-        "opacity": 0.40,
+        "opacity": 0.30,
         "tint": "#cc6f33"
       },
       "edge_fade": {"distance_px": 10}
@@ -86,7 +86,7 @@
       "filter": {"__layer": "Abitato"},
       "symbolizer": {
         "type": "polygon_fill",
-        "fill": "#cc6f3355"
+        "fill": "#cc6f3340"
       },
       "edge_fade": {"distance_px": 8}
     },
@@ -97,7 +97,7 @@
       "filter": {"__layer": "Cordoni"},
       "symbolizer": {
         "type": "polygon_fill",
-        "opacity": 0.30,
+        "opacity": 0.18,
         "fill": "#E3DCD6"
       },
       "edge_fade": {"distance_px": 12}
@@ -107,7 +107,7 @@
       "z_index": 5,
       "geometry": ["Polygon", "MultiPolygon"],
       "filter": {"__layer": "Ustrina (aree)"},
-      "symbolizer": {"type": "polygon_fill", "fill": "#3f3b384d"}
+      "symbolizer": {"type": "polygon_fill", "fill": "#3f3b3833"}
     },
     {
       "name": "palificazioni-legno",
@@ -116,7 +116,7 @@
       "filter": {"__layer": "Palificazioni (legno)"},
       "symbolizer": {
         "type": "polygon_fill",
-        "opacity": 0.55,
+        "opacity": 0.40,
         "fill": "#8c6239"
       }
     },
@@ -130,7 +130,7 @@
         "asset": "vt.quercia",
         "tile_size_px": 25,
         "rotation": 0,
-        "opacity": 0.55,
+        "opacity": 0.40,
         "tint": "#a8814f"
       },
       "edge_fade": {"distance_px": 3}
