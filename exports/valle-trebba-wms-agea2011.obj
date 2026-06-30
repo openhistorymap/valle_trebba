@@ -1,20 +1,21 @@
-# Valle Trebba - flat plane textured with AGEA 2011 RGB ortophoto (WMS only)
-# Texture: valle-trebba-wms-agea2011.jpg (2614 x 5000, proportional to territory)
+# Valle Trebba - flat textured plane
+# Texture: valle-trebba-wms-agea2011.jpg (4047 x 5000, proportional to territory;
+# AGEA 2011 RGB ortophoto (WMS only)).
 #
-# Geo bbox (EPSG:4326)  -- tombe-points bbox + 250m buffer:
-#   W 12.10456149  S 44.69634646
-#   E 12.11990417  N 44.71727496
+# Geo bbox (EPSG:4326)  -- tombe-points bbox + 2000m buffer:
+#   W 12.08247890  S 44.68059874
+#   E 12.14198675  N 44.73302268
 #
 # Plane on Z=0, +X = east, +Y = north, +Z = up.
 # Units: kilometres (1 unit = 1 km).
-# Size: 1.2159 (E-W) x 2.3257 (N-S)  -- same geometry as valle-trebba-5.obj.
+# Size: 4.7159 (E-W) x 5.8257 (N-S)
 
 mtllib valle-trebba-wms-agea2011.mtl
 
 v 0.000000 0.000000 0.000000
-v 1.215900 0.000000 0.000000
-v 1.215900 2.325700 0.000000
-v 0.000000 2.325700 0.000000
+v 4.715900 0.000000 0.000000
+v 4.715900 5.825700 0.000000
+v 0.000000 5.825700 0.000000
 
 vt 0.000000 0.000000
 vt 1.000000 0.000000
