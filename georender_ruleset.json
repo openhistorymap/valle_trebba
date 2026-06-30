@@ -26,7 +26,7 @@
       "filter": {"__layer": "Sfondo"},
       "symbolizer": {
         "type": "polygon_fill",
-        "opacity": 0.55,
+        "opacity": 0.80,
         "fill": "#84826a"
       },
       "edge_fade": {"distance_px": 24}
