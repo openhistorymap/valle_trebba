@@ -1,7 +1,6 @@
 # Valle Trebba — flat textured plane in real-world dimensions
-# Texture: valle-trebba-5.png (5000 x 5000, square; renderer stretched the
-# rectangular bbox into a square canvas, so applying it to this rectangular
-# plane restores the correct geographic proportions).
+# Texture: valle-trebba-5.png (2105 x 5000, proportional to the territory;
+# AGEA 2011 ortophoto base + georender overlay).
 #
 # Geo bbox (EPSG:4326):
 #   W 12.06510176  S 44.65223970
