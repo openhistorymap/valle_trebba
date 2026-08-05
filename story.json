@@ -1,0 +1,515 @@
+{
+  "kind": "geocontext-story",
+  "version": 1,
+  "title": "Come è stata scavata Valle Trebba",
+  "subtitle": "Quindici anni di campagne, 1922–1936",
+  "byline": "Open History Map",
+  "lang": "it",
+  "extends": "gcx.json",
+  "_nota_dem": "Il DEM dichiarato in gcx.json punta a elevation-tiles-prod.s3.amazonaws.com, che oggi risponde 404. Disattivato qui per non caricare tile morte; da correggere in gcx.json.",
+  "dem": false,
+  "theme": {
+    "mode": "light",
+    "accent": "#a8402a",
+    "textWidth": "33rem"
+  },
+  "options": {
+    "camera": "fly",
+    "duration": 1800,
+    "trigger": 0.55
+  },
+  "blocks": [
+    {
+      "id": "copertina",
+      "type": "cover",
+      "chapter": "Apertura",
+      "kicker": "Necropoli di Valle Trebba · Spina",
+      "title": "Come è stata scavata Valle Trebba",
+      "subtitle": "Quindici anni di campagne, 1922–1936",
+      "text": "La mappa di questo repository mostra **1226 sepolture**. Ciascuna porta con sé, tra gli altri attributi, l'anno in cui è stata riportata alla luce: `t_anno`, compilato per 1222 di esse.\n\nMesse in fila, quelle date raccontano una seconda storia sopra la prima. Non la necropoli etrusca, ma lo scavo che l'ha trovata — dove ha cominciato, come si è spostato, quando si è fermato.",
+      "camera": {
+        "bbox": [
+          12.10772,
+          44.6986,
+          12.11675,
+          44.71503
+        ],
+        "transition": "jump"
+      },
+      "layers": {
+        "only": [
+          "Dossi",
+          "Tombe"
+        ]
+      },
+      "background": "rer-1976"
+    },
+    {
+      "id": "terreno",
+      "chapter": "Il terreno",
+      "kicker": "dossi e paleoalvei",
+      "title": "Prima di tutto, la sabbia",
+      "text": "Valle Trebba è una delle due grandi necropoli — con Valle Pega — della città etrusca di **Spina**, scalo commerciale dell'alto Adriatico fra il VI e il III secolo a.C.\n\nLe tombe non sono distribuite a caso: seguono i **dossi**, i rilievi sabbiosi emersi fra i rami del delta. Sono quelle strisce a determinare dove si poteva scavare una fossa, e quindi — ventiquattro secoli dopo — dove gli scavatori avrebbero trovato qualcosa.",
+      "camera": {
+        "bbox": [
+          12.10772,
+          44.6986,
+          12.11675,
+          44.71503
+        ],
+        "padding": 40
+      },
+      "layers": {
+        "only": [
+          "Sfondo",
+          "Linea di costa",
+          "Paleoalvei",
+          "Dossi (Valle Pega)",
+          "Dossi"
+        ]
+      },
+      "background": "none"
+    },
+    {
+      "id": "abitato",
+      "kicker": "l'abitato",
+      "title": "E la città",
+      "text": "L'abitato di Spina sta a sud-ovest della necropoli, sull'altro lato dei paleoalvei. Le due cose vanno lette insieme: si seppellisce vicino a dove si vive, e lungo le vie d'acqua che collegano l'uno all'altra.",
+      "layers": {
+        "show": [
+          "Abitato"
+        ]
+      }
+    },
+    {
+      "id": "tombe",
+      "kicker": "1226 sepolture",
+      "title": "Le tombe, tutte insieme",
+      "text": "Ecco il dato completo. Il colore è il **rito**, come nella mappa: blu l'inumazione, arancio la cremazione, grigio il non determinato.\n\n**688 inumazioni. 492 cremazioni. 42 non determinate.**\n\nÈ la fotografia finale, il risultato di quindici anni di lavoro sommati insieme. Da qui in avanti la smontiamo, un anno alla volta.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632"
+        },
+        "padding": 60
+      },
+      "layers": {
+        "only": [
+          "Sfondo",
+          "Dossi",
+          "Tombe"
+        ]
+      }
+    },
+    {
+      "id": "campagne",
+      "type": "chapter",
+      "chapter": "Le campagne",
+      "kicker": "1922–1936",
+      "title": "Un anno alla volta",
+      "text": "Le date vanno dal **1922 al 1936**: quattordici anni in cui compare almeno una tomba. Ma non sono anni uguali fra loro. Il **90%** delle sepolture datate esce da terra entro il 1928; tutto il resto — sette anni di calendario — vale poco più di un centinaio di tombe.\n\nQuello che segue è il dato, campagna per campagna."
+    },
+    {
+      "id": "y1922",
+      "kicker": "1922 · 46 tombe",
+      "title": "Si comincia da nord",
+      "text": "La prima campagna registrata apre una striscia stretta all'estremità settentrionale del dosso — poco più di ottanta metri di larghezza per quasi ottocento di sviluppo.\n\nQuarantasei tombe: **35 fosse e 11 pozzetti**. Nessuna cassa. È un saggio lungo e sottile, non un'area aperta.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1922
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1922
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/33.jpg",
+          "caption": "Tomba 33 — inumazione in fossa, rinvenuta intatta nel 1922.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "y1923",
+      "kicker": "1923 · 179 tombe",
+      "title": "L'anno in cui si apre tutto",
+      "text": "Il 1923 è la campagna che copre la maggiore estensione dell'intero scavo: oltre un chilometro e mezzo da nord a sud. È anche l'anno in cui **N. Proni** comincia i *Giornali di scavo*, il registro sequenziale che accompagna la campagna.\n\nCentosettantanove tombe, ripartite quasi a metà fra i due riti: 88 inumazioni, 84 cremazioni.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1923
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1923
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/128.jpg",
+          "caption": "Tomba 128 — inumazione in cassa, intatta.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "y1924",
+      "kicker": "1924 · 104 tombe",
+      "title": "Poi si scende",
+      "text": "Dal 1924 il fronte si sposta verso sud e si stringe. L'area di lavoro si dimezza rispetto all'anno prima, e le tombe passano da 179 a 104.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1924
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1924
+          }
+        }
+      }
+    },
+    {
+      "id": "y1925",
+      "kicker": "1925 · 138 tombe",
+      "title": "Il fronte si concentra",
+      "text": "Il 1925 lavora su una fascia di circa quattrocento metri — la più compatta finora — e ne ricava 138 tombe. È il momento in cui lo scavo smette di sondare e comincia a spogliare l'area.\n\nÈ anche l'unico anno di cui il dato conserva la topografia interna dello scavo: il campo `Trincea` è compilato per 68 tombe, e 67 di queste sono del 1925 — *«Trincea e-c, dosso e»*, *«Saggio a sud di trincea e-c»*, *«Sud di f, giugno 1925»*.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1925
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1925
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/378.jpg",
+          "caption": "Tomba 378 — cremazione in pozzetto, intatta.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "y1926",
+      "kicker": "1926 · 153 tombe",
+      "title": "Ancora più fitto",
+      "text": "Stessa fascia, densità maggiore: 153 tombe in un'area di poco superiore a quella dell'anno precedente.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1926
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1926
+          }
+        }
+      }
+    },
+    {
+      "id": "y1927",
+      "kicker": "1927 · 353 tombe",
+      "title": "L'anno grande",
+      "text": "Il 1927 da solo vale il **29% di tutte le tombe datate**: 353 sepolture, più del doppio di qualsiasi altra campagna. E le ricava dall'area più piccola trattata fino a quel momento, poco più di centottanta metri di fronte.\n\nNon è un anno in cui si esplora. È un anno in cui si svuota.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1927
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1927
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/892.jpg",
+          "caption": "Tomba 892 — inumazione in cassa, intatta. Una delle 353 del 1927.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "y1928",
+      "kicker": "1928 · 132 tombe",
+      "title": "E si torna a salire",
+      "text": "Il 1928 riapre verso nord, su un fronte largo quasi trecento metri, e chiude la fase intensiva con 132 tombe. Con quest'anno lo scavo ha già portato alla luce **1105 sepolture su 1222** — il novanta per cento del totale datato.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1928
+          }
+        },
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1928
+          }
+        }
+      }
+    },
+    {
+      "id": "coda",
+      "kicker": "1929–1936 · 117 tombe",
+      "title": "La lunga coda",
+      "text": "Poi la curva crolla. Sette anni di calendario — con il 1933 del tutto assente dal dato — per **117 tombe** in tutto: 7 nel 1929, 57 nel 1930, 5 nel 1931, 2 nel 1932, 3 nel 1934, 42 nel 1935, **una sola nel 1936**.\n\nMa sono anche gli anni in cui lo scavo si sparpaglia di più: i punti di questa fase coprono l'intera estensione del sito, da un capo all'altro.",
+      "camera": {
+        "bbox": [
+          12.10845,
+          44.6986,
+          12.11675,
+          44.71497
+        ],
+        "padding": 70
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "in": [
+              1929,
+              1930,
+              1931,
+              1932,
+              1934,
+              1935,
+              1936
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "y1935",
+      "kicker": "1935 · 42 tombe",
+      "title": "Una tasca di trenta metri",
+      "text": "Il 1935 è l'anomalia della coda. Quarantadue tombe concentrate in un fazzoletto di circa **trenta metri per trenta**, all'estremità orientale del sito — lontano da tutto il resto.\n\nQuindici casse, quattordici pozzetti, tredici fosse: per una volta le tre strutture quasi in parità.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1935
+          },
+          "maxZoom": 19
+        },
+        "padding": 80
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1935
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/1204.jpg",
+          "caption": "Tomba 1204 — inumazione in cassa, intatta.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "ultima",
+      "kicker": "1936 · 1 tomba",
+      "title": "E l'ultima",
+      "text": "La tomba 1213, inumazione in fossa, trovata saccheggiata. È l'unica sepoltura datata 1936, e l'ultima registrata nel dataset.",
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632",
+          "where": {
+            "t_anno": 1936
+          },
+          "maxZoom": 18
+        },
+        "padding": 80
+      },
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_anno",
+            "value": 1936
+          }
+        }
+      },
+      "media": [
+        {
+          "kind": "image",
+          "src": "schizzi/1213.jpg",
+          "caption": "Tomba 1213 — inumazione in fossa, saccheggiata.",
+          "credit": "Schizzo di scavo, archivio del dataset"
+        }
+      ]
+    },
+    {
+      "id": "strutture",
+      "type": "chapter",
+      "chapter": "Cosa cambia",
+      "kicker": "fossa · pozzetto · cassa",
+      "title": "Le casse arrivano tardi",
+      "text": "Su tutto il sito le strutture sono tre: **534 fosse, 465 pozzetti, 196 casse** (più 27 non determinate).\n\nMa non si distribuiscono in modo uniforme nel tempo. Nelle campagne 1922–1926 le casse sono il **10%** delle tombe scavate. Dal 1927 al 1936 diventano il **22%**. Nel 1922 non ce n'è nessuna.",
+      "layers": {
+        "filter": {
+          "Tombe": {
+            "property": "t_struttur",
+            "value": "cassa"
+          }
+        }
+      },
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632"
+        },
+        "padding": 60
+      }
+    },
+    {
+      "id": "cautela",
+      "kicker": "una cautela",
+      "title": "Il dato dice quando, non perché",
+      "text": "Questa è la parte in cui è facile scivolare. Che le casse compaiano soprattutto nelle campagne tarde è un fatto leggibile nella tabella; **il perché non è nella tabella**.\n\nPuò essere una differenza reale nella necropoli — settori diversi, periodi diversi. Può essere l'effetto di dove lo scavo è andato a finire. Può essere un cambiamento nel modo di registrare. Il dataset registra l'anno di rinvenimento e la struttura: separare le tre spiegazioni richiede i *Giornali di scavo* e la bibliografia, non questa mappa.",
+      "layers": {
+        "filter": {
+          "Tombe": null
+        }
+      }
+    },
+    {
+      "id": "sotto",
+      "type": "chapter",
+      "chapter": "Il terreno sotto",
+      "kicker": "1976",
+      "title": "Quello che si vede dall'aria",
+      "text": "La necropoli sta oggi sotto la quota di campagna, in una valle bonificata. Il volo regionale del **1976–78** è la base su cui il rilievo è stato ricomposto: i dossi si leggono ancora come tracce chiare nel seminativo.",
+      "background": "rer-1976",
+      "camera": {
+        "bbox": [
+          12.10772,
+          44.6986,
+          12.11675,
+          44.71503
+        ],
+        "padding": 40
+      },
+      "layers": {
+        "only": [
+          "Dossi",
+          "Tombe"
+        ]
+      }
+    },
+    {
+      "id": "milleottocento",
+      "kicker": "1814",
+      "title": "E quello che si vedeva prima della bonifica",
+      "text": "La stessa area nella carta del **Territorio ferrarese del 1814**: qui non c'è ancora campagna, c'è la valle. Le tombe che stiamo guardando erano, a quella data, sotto l'acqua.",
+      "background": "ferrara-1814"
+    },
+    {
+      "id": "contorno",
+      "kicker": "ustrina, palificazioni, passerelle",
+      "title": "Non solo tombe",
+      "text": "Il rilievo registra anche il contorno dello scavo: le aree di cremazione — gli **ustrina** — e il sistema di **palificazioni** lignee e **passerelle** che rendeva praticabile un terreno che praticabile non era.",
+      "background": "none",
+      "layers": {
+        "only": [
+          "Sfondo",
+          "Dossi",
+          "Tombe",
+          "Ustrina",
+          "Ustrina (aree)",
+          "Palificazioni",
+          "Passerelle"
+        ]
+      },
+      "camera": {
+        "focus": {
+          "datasource": "valle_trebba_punti_32632"
+        },
+        "padding": 60
+      }
+    },
+    {
+      "id": "colophon",
+      "type": "cover",
+      "chapter": "Colophon",
+      "kicker": "fonti",
+      "title": "Da dove viene questo racconto",
+      "text": "Ogni cifra citata qui è calcolata sul campo `t_anno` di `datasets/valle_trebba_punti_32632.geojson`, in questo stesso repository. La mappa, gli schizzi e le schede di scavo sono gli stessi che la mappa interattiva pubblica.\n\nLe fonti del dataset:\n\n- **N. Proni**, *Giornali di scavo*, dal 1923 — testimonianza primaria della campagna originale.\n- **F. Berti**, *Spina. Storia di una città tra Greci ed Etruschi*, 1983.\n- **A. Trevisanello**, tesi di dottorato, 2024 — revisione moderna e raccordo dei dati.\n\nDati e materiali pubblicati a fini di studio e divulgazione nell'ambito di **Open History Map**.",
+      "camera": {
+        "bbox": [
+          12.10772,
+          44.6986,
+          12.11675,
+          44.71503
+        ],
+        "padding": 50
+      },
+      "layers": {
+        "only": [
+          "Dossi",
+          "Tombe"
+        ],
+        "filter": {
+          "Tombe": null
+        }
+      },
+      "background": "rer-1976"
+    }
+  ]
+}
