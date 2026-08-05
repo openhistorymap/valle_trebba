@@ -9,6 +9,9 @@
 
   "extends": "gcx.json",
 
+  "_nota_dem": "Il DEM dichiarato in gcx.json punta a elevation-tiles-prod.s3.amazonaws.com, che oggi risponde 404. Disattivato qui per non caricare tile morte; da correggere in gcx.json.",
+  "dem": false,
+
   "theme": {
     "mode": "light",
     "accent": "#a8402a",
